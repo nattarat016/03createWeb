@@ -24,10 +24,10 @@ nav a{
 .page1 {
     padding: 10px;
     background-color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
 }
 
 #explain{
@@ -41,10 +41,15 @@ li{
     margin-bottom: 24px;
 }
 
+.section{
+    color: white;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
+    background-color: white;
 }
 
 th, td {
@@ -58,6 +63,7 @@ th {
 }
 
 .bakuinfo {
+    margin-top: 50px;
     padding: 10px;
     display: flex;
     background-color: hsl(300, 47%, 75%);
@@ -84,6 +90,30 @@ th {
 .info{
     display: grid;
 }
-.info p{
-    
+
+.about {
+    color: white;
+}
+
+.myinfo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    border-style: solid;
+    width: fit-content;
+    color: white;
+    padding: 30px;
+    margin: 20px;
+}
+
+.myphoto{
+    width: 250px;
+    overflow: hidden    ;
+}
+
+.name {
+        display: grid;
+        justify-content: center;
 }
